@@ -6,7 +6,7 @@ const sendEmail= async function(name,email,content){
     const mailGunAuth={
         auth:{
             api_key: process.env.KEY_MAILGUN 
-            domain:  process.env.MAIL_GUN_DOMAIN 
+            domain_key:  process.env.MAIL_GUN_DOMAIN 
         }
     }
     
